@@ -1,7 +1,9 @@
-# clone from: https://github.com/lemonade-hq/SlideSideMenu.git
+# 侧滑菜单，侧滑后主界面缩小
+
+clone from: https://github.com/lemonade-hq/SlideSideMenu.git
 感谢作者分享，这里升级了AndroidX，Gradle 7.0.2，Java 11， 
 
-#SlideSideMenu for Android
+##SlideSideMenu for Android
 
 A layout widget for a sliding side menu.
 
