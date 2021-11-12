@@ -13,37 +13,51 @@
         android:background="@color/colorPrimary"
         android:padding="50dp">
 
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:textSize="20dp"
-            android:layout_marginTop="20dp"
-            android:textColor="#ffffff"
-            android:text="Item 1"/>
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@mipmap/ic_launcher"
+            android:contentDescription="@string/app_name" />
 
         <TextView
+            android:id="@+id/menu_me"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="20dp"
             android:textSize="20dp"
+            android:layout_marginTop="20dp"
             android:textColor="#ffffff"
-            android:text="Item 2"/>
+            android:text="我的账户"
+            android:background="@color/cardview_shadow_start_color"/>
 
         <TextView
+            android:id="@+id/menu_about"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="20dp"
             android:textSize="20dp"
             android:textColor="#ffffff"
-            android:text="Item 3"/>
+            android:text="关于我们"
+            android:background="@color/cardview_shadow_start_color"/>
 
         <TextView
+            android:id="@+id/menu_service"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="20dp"
             android:textSize="20dp"
             android:textColor="#ffffff"
-            android:text="Item 4"/>
+            android:text="系统服务"
+            android:background="@color/cardview_shadow_start_color"/>
+
+        <TextView
+            android:id="@+id/menu_quit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:textSize="20dp"
+            android:textColor="#ffffff"
+            android:text="安全退出"
+            android:background="@color/cardview_shadow_start_color"/>
     </LinearLayout>
 
     <com.lemonade.widgets.slidesidemenu.SlideSideMenuContentCardView
